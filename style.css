@@ -1,0 +1,20 @@
+#main-container {
+    position: static;
+}
+
+#main {
+    position: relative;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    margin: 10vh 0;
+    border: 1px solid black;
+    width: 40rem;
+    height: auto;
+    padding: 1rem;
+}
+
+.container img {
+    width: 40rem;
+    height: 20rem;
+}
