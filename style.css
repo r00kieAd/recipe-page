@@ -59,6 +59,8 @@ h4 {
 li {
     list-style-type: square;
     margin: 10px 0;
+    color: var(--Dark-Raspberry);
+    font-weight: 700;
 }
 
 .container img {
@@ -79,6 +81,7 @@ li {
 
 .preparation-time li {
     margin: 10px 0;
+    color: var(--Nutmeg);
 }
 
 .instructions li {
@@ -99,4 +102,46 @@ li {
     float: right;
     color: var(--Dark-Raspberry);
     font-weight: bolder;
+}
+
+li div {
+    margin-left: 10px;
+    color: var(--Wenge-Brown);
+    font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+
+    #main-container {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #main {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        background-color: none;
+        overflow-x: hidden;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .preparation-time {
+        width: 80vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
 }
